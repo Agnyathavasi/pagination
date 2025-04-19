@@ -1,0 +1,73 @@
+/* App.css */
+.App {
+  font-family: sans-serif;
+  background-color: #fff;
+}
+
+.products-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.products-page .product-item {
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fefefe;
+  border: 1px solid #fefefe;
+}
+
+.product-item:hover {
+  border-color: #121212;
+}
+
+.product-item h5 {
+  color: #666;
+}
+
+.product-item .green {
+  color: green;
+}
+
+.product-item .yellow {
+  color: #ffc107;
+}
+
+.product-item .red {
+  color: red;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  max-height: 150px;
+  object-fit: contain;
+  text-align: center;
+}
+
+.product-title {
+  display: flex;
+  margin-bottom: 0;
+  justify-content: space-between;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination .disabled {
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}
