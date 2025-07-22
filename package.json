@@ -2,7 +2,7 @@
   "name": "my-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://agnyathavasi.github.io/e-commerce-page",
+  "homepage": "https://agnyathavasi.github.io/pagination",
   "type": "module",
   "scripts": {
     "dev": "vite",
